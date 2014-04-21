@@ -1,0 +1,195 @@
+
+/* line 1 : /Users/josephchapman/Projects/datagrid/node_modules/stylus/lib/functions/index.styl */
+
+/* line undefined : /Users/josephchapman/Projects/datagrid/public/stylesheets/reset.styl */
+/* 
+html5doctor.com Reset Stylesheet
+v1.4.1 
+2010-03-01
+Author: Richard Clark - http://richclarkdesign.com
+*/
+
+/* line 8 : /Users/josephchapman/Projects/datagrid/public/stylesheets/reset.styl */
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+/* line 18 : /Users/josephchapman/Projects/datagrid/public/stylesheets/reset.styl */
+body {
+  line-height: 1;
+}
+
+/* line 22 : /Users/josephchapman/Projects/datagrid/public/stylesheets/reset.styl */
+:focus {
+  outline: 1;
+}
+
+/* line 26 : /Users/josephchapman/Projects/datagrid/public/stylesheets/reset.styl */
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/* line 30 : /Users/josephchapman/Projects/datagrid/public/stylesheets/reset.styl */
+nav ul {
+  list-style: none;
+}
+
+/* line 34 : /Users/josephchapman/Projects/datagrid/public/stylesheets/reset.styl */
+blockquote,
+q {
+  quotes: none;
+}
+
+/* line 38 : /Users/josephchapman/Projects/datagrid/public/stylesheets/reset.styl */
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+/* line 43 : /Users/josephchapman/Projects/datagrid/public/stylesheets/reset.styl */
+a {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+/* line 52 : /Users/josephchapman/Projects/datagrid/public/stylesheets/reset.styl */
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+
+/* line 58 : /Users/josephchapman/Projects/datagrid/public/stylesheets/reset.styl */
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+/* line 65 : /Users/josephchapman/Projects/datagrid/public/stylesheets/reset.styl */
+del {
+  text-decoration: line-through;
+}
+
+/* line 69 : /Users/josephchapman/Projects/datagrid/public/stylesheets/reset.styl */
+abbr[title],
+dfn[title] {
+  border-bottom: 1px dotted #000;
+  cursor: help;
+}
+
+/* line 74 : /Users/josephchapman/Projects/datagrid/public/stylesheets/reset.styl */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 79 : /Users/josephchapman/Projects/datagrid/public/stylesheets/reset.styl */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+/* line 88 : /Users/josephchapman/Projects/datagrid/public/stylesheets/reset.styl */
+input,
+select {
+  vertical-align: middle;
+}

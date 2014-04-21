@@ -1,0 +1,21 @@
+doctype 5
+html
+  head
+    block head
+        meta(charset='utf-8')
+        title DataGrid
+        meta(name='mobile-web-app-capable', content='yes')
+        meta(name='apple-mobile-web-app-capable', content='yes')
+        link(rel='stylesheet', href='/stylesheets/main.css')
+
+  body
+    .ui-app
+        div.ui-app-title(role='banner', itemscope, itemtype='http://schema.org/WPHeader') DataGrid Control Panel
+        .ui-app-content
+            .row12
+                include includes/header.jade
+            .row12
+                include includes/navigation.jade
+            .row12
+                article(role='main')
+                    block content

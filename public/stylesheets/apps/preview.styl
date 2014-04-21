@@ -1,0 +1,53 @@
+table
+    border: 1px solid #c2c4d4;
+    border-radius: 3px;
+    color: #8e989f;
+    text-shadow: 0 1px 1px #fff;
+    width: 100%;
+    overflow: hidden;
+    border-collapse: separate;
+
+    colgroup.hover
+        background: #e9f1f7;
+
+    thead
+        background-image: linear-gradient(#e9f1f7, #d9e7f1);
+
+        th
+            position: relative;
+            padding: 9px;
+            text-align: left;
+
+            &:hover
+                cursor: pointer;
+
+            &.sorted
+                color: #dd8800;
+                &:after
+                    content: url("/img/sprites.png");
+                    position: absolute;
+                    top: -105px;
+                    height: 10px;
+                    width: 10px;
+                    padding-left: 3px;
+
+    tbody
+        min-height: 300px;
+        &.loading
+            // background: transparent url('/img/loading.gif') no-repeat 50%;
+
+        tr
+            &:nth-child(even)
+                background: #f8f8f8;
+
+            &:hover
+                background: #e9f1f7;
+        td
+            padding: 10px;
+            border: 1px solid transparent;
+            &:hover
+                color: #000;
+                text-shadow: none;
+                border: 1px solid #000;
+                cursor: default;
+

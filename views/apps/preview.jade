@@ -1,0 +1,25 @@
+extends ../layout
+
+append head
+    link(rel='stylesheet', href='/stylesheets/apps/preview.css')
+
+block content
+    table#viewport.ui-viewport(role='main')
+        colgroup
+        colgroup
+        colgroup
+        colgroup
+        colgroup
+        colgroup
+
+        thead
+            tr
+                th.sorted Ticker
+                th Industry
+                th Market Cap
+                th Price
+                th Change
+                th Volume
+        tbody
+
+    script(src='/js/bundle.js')

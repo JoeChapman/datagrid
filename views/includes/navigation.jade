@@ -1,0 +1,19 @@
+nav(role='navigation', aria-label='Main menu', itemscope, itemtype='http://schema.org/SiteNavigationElement')
+    ul(role='menubar', aria-hidden='false')
+        li(role='menuitem', class=(menu === 'home' ? 'active' : ''))
+            a(href='/') Home
+        li(role='menuitem', class=(menu === 'preview' ? 'active' : ''))
+            a(href='/preview') Preview
+        li(role='menuitem', class=(menu === 'activity' ? 'active' : ''))
+            a(href='/activity') Activity
+        li(role='menuitem', class=(menu === 'control' ? 'active' : ''))
+            a(href='/control') Control
+        li(role='menuitem', class=(menu === 'issue' ? 'active' : ''))
+            a(href='/issue') Issue
+        li(role='menuitem', class=(menu === 'overview' ? 'active' : ''))
+            a(href='/overview') Overview
+    ul(role='adminmenu', aria-hidden='false')
+        li(role='menuitem', class=(menu === 'profile' ? 'active' : ''))
+            a(href='/profile') My Profile
+        li(role='menuitem', class=(menu === 'admin' ? 'active' : ''))
+            a(href='/admin') Admin

@@ -1,0 +1,23 @@
+{
+  "name": "datagrid",
+  "version": "0.0.1",
+  "main": "app.js",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Joseph Chapman",
+  "license": "MIT",
+  "dependencies": {
+    "express": "3.2.6",
+    "jade": "0.32.0",
+    "stylus": "0.33.1",
+    "nib": "~1.0.1",
+    "backbone": "~1.1.0",
+    "jquery": "~2.1.0",
+    "underscore": "~1.5.2",
+    "request": "~2.34.0",
+    "browserify": "~3.44.1",
+    "jadeify": "~2.1.1"
+  }
+}
