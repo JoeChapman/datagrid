@@ -368,6 +368,12 @@ body {
 }
 
 /* line 33 : /Users/josephchapman/Projects/datagrid/public/stylesheets/main.styl */
+[role='main'] {
+  position: relative;
+  overflow: hidden;
+}
+
+/* line 37 : /Users/josephchapman/Projects/datagrid/public/stylesheets/main.styl */
 .row12 {
   clear: both;
   margin-bottom: 20px;

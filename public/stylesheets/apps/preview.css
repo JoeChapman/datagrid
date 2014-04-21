@@ -24,22 +24,21 @@ table thead {
 
 /* line 16 : /Users/josephchapman/Projects/datagrid/public/stylesheets/apps/preview.styl */
 table thead th {
-  position: relative;
   padding: 9px;
   text-align: left;
 }
 
-/* line 21 : /Users/josephchapman/Projects/datagrid/public/stylesheets/apps/preview.styl */
+/* line 20 : /Users/josephchapman/Projects/datagrid/public/stylesheets/apps/preview.styl */
 table thead th:hover {
   cursor: pointer;
 }
 
-/* line 24 : /Users/josephchapman/Projects/datagrid/public/stylesheets/apps/preview.styl */
+/* line 23 : /Users/josephchapman/Projects/datagrid/public/stylesheets/apps/preview.styl */
 table thead th.sorted {
   color: #d80;
 }
 
-/* line 26 : /Users/josephchapman/Projects/datagrid/public/stylesheets/apps/preview.styl */
+/* line 25 : /Users/josephchapman/Projects/datagrid/public/stylesheets/apps/preview.styl */
 table thead th.sorted:after {
   content: url("/img/sprites.png");
   position: absolute;
@@ -49,32 +48,30 @@ table thead th.sorted:after {
   padding-left: 3px;
 }
 
-/* line 34 : /Users/josephchapman/Projects/datagrid/public/stylesheets/apps/preview.styl */
+/* line 33 : /Users/josephchapman/Projects/datagrid/public/stylesheets/apps/preview.styl */
 table tbody {
   min-height: 300px;
 }
 
 /* line 36 : /Users/josephchapman/Projects/datagrid/public/stylesheets/apps/preview.styl */
 
-/* line 39 : /Users/josephchapman/Projects/datagrid/public/stylesheets/apps/preview.styl */
-
-/* line 40 : /Users/josephchapman/Projects/datagrid/public/stylesheets/apps/preview.styl */
+/* line 37 : /Users/josephchapman/Projects/datagrid/public/stylesheets/apps/preview.styl */
 table tbody tr:nth-child(even) {
   background: #f8f8f8;
 }
 
-/* line 43 : /Users/josephchapman/Projects/datagrid/public/stylesheets/apps/preview.styl */
+/* line 40 : /Users/josephchapman/Projects/datagrid/public/stylesheets/apps/preview.styl */
 table tbody tr:hover {
   background: #e9f1f7;
 }
 
-/* line 45 : /Users/josephchapman/Projects/datagrid/public/stylesheets/apps/preview.styl */
+/* line 42 : /Users/josephchapman/Projects/datagrid/public/stylesheets/apps/preview.styl */
 table tbody td {
   padding: 10px;
   border: 1px solid transparent;
 }
 
-/* line 48 : /Users/josephchapman/Projects/datagrid/public/stylesheets/apps/preview.styl */
+/* line 45 : /Users/josephchapman/Projects/datagrid/public/stylesheets/apps/preview.styl */
 table tbody td:hover {
   color: #000;
   text-shadow: none;
